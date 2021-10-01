@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/optionsblank"
+    tools:context=".GameSettings">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="196dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/return_button"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/returnbutton" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="194dp"
+        android:layout_height="74dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/starts_music"
+        android:onClick="startmusic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369"
+        app:srcCompat="@drawable/startmusicbutton" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="208dp"
+        android:layout_height="82dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/stops_music"
+        android:onClick="stopMusic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stopmusicbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamesettingblank"
+    android:visibility="visible"
+    tools:context=".options">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:background="#48555555"
+        android:entries="@array/Difficulty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="141dp"
+        android:layout_height="33dp"
+        android:background="#48555555"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/Mode"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="207dp"
+        android:layout_height="89dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/gobutton"
+        android:onClick="Startgame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/gamesettingsbutton" />
+
+    <ImageButton
+        android:id="@+id/returnHome"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/returnhome"
+        android:onClick="back"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:tint="#5E5E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        tools:src="@drawable/ic_baseline_arrow_back_24"
+        tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/infoScreen"
+        android:layout_width="348dp"
+        android:layout_height="461dp"
+        android:layout_marginTop="284dp"
+        android:contentDescription="@string/infoBoxInformation"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quotebox" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/InfoButton"
+        android:onClick="infoPopup"
+        android:tint="#5E5E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:srcCompat="@android:drawable/ic_dialog_info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

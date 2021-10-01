@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WPM project</string>
+    <string name="music">Music</string>
+    <string name="notifications">Notifications</string>
+    <string name="return_button">return_button</string>
+    <string name="settings_button">settings_button</string>
+    <string name="set_sail_button">set_sail_button</string>
+    <string name="gobutton">goButton</string>
+    <string name="returnhome">returnHome</string>
+    <string name="temp_words_game">This is the test words for the words per minute game there will be randomized text that is able to be typed in, this is temporary for the sake of showing off the visibility of the text</string>
+    <string name="temp_30s">30s</string>
+    <string name="temp">temp</string>
+    <string name="return_to_settings">return to settings</string>
+    <string name="reset_game">reset game</string>
+    <string name="_50_wpm">50 WPM</string>
+    <string name="retry_results">retry_results</string>
+    <string name="main_menu_results">main_menu_results</string>
+    <string name="InfoButton">InfoButton</string>
+    <string name="infoBoxInformation">Race- Complete the text race before the timer runs out! Timer - Type as many words as possible before the timer runs out Word Count - Type the quote as fast as you can</string>
+    <string name="version">Version 0.3.4</string>
+    <string name="yarr_you_typed_at">Yarr! You typed at:</string>
+    <string name="yarr_you_finished_the_message_in">Yarr! You finished typing the message in:</string>
+    <string name="success">Success!    You beat the race on: </string>
+    <string name="failure">Failure...     You didn\'t beat the race on: </string>
+    <string name="type_here">Type Here</string>
+    <string name="stops_music">stops music</string>
+    <string name="starts_music">starts music</string>
+</resources>
